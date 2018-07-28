@@ -1,0 +1,199 @@
+body{
+	font-family:Arial, sans-serif;/*семейство шрифтов*/
+	padding:0;/*отступ снаружи*/
+	margin:0;/*отступ внутри*/
+	color:#222222;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+
+}
+header{ /*название блока*/
+background: url(../img/first-bg.jpg) no-repeat center top;/*местоположение файла,
+свойство чтобы картинка не повторялась если ее размер
+меньше окна браузера,расположение по центру,сверху*/
+height: 100vh;
+}
+div{
+	box-sizing: border-box;
+}
+.container{/**/
+	width: 931px;/*размер содержимого страницы,границы за 
+	которые он не уйдет*/
+	/*border: 1px solid red;/*граница контейнера,
+	выделенная красным*/
+	margin: 0 auto;/**/
+}
+.logo {
+	float:left;
+	margin-top:42px;/*отступ сверху 42 пикселя*/
+}
+nav{
+	float:right;
+	margin-top:45px;
+}
+.menu{
+	padding: 0;
+	margin:0;
+	display:block;
+	
+}
+.menu li{
+	float:left;/**/
+	display:block;/**/
+	margin-right: 41px;
+	}
+.menu a{
+	color:white;/**/
+	text-decoration: none;/**/
+	font-size:14px;
+	text-transform: uppercase;/**/
+}
+.titles_first{
+	font-size:40px;
+	color:white;
+	text-transform: uppercase;/**/
+	text-align: center;
+	margin-top:180px;
+}
+h1{
+	font-size: 71px;
+	color:white;
+	text-transform: uppercase;/**/
+	text-align: center;
+	margin:10 0;
+}
+.button{
+	background-color:#fed136;
+	color:gray;
+	border-radius: 3px;
+	display: block;
+	text-transform:uppercase;
+	font-size: 20px;
+	width: 240px;
+	padding:20px 0;
+	text-decoration: none;/**/
+	margin:0 auto;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 100px;
+	}
+
+.title{padding-top:115px;
+	
+}
+.title h2{
+	font-size:40px;
+	font-weight: bold;
+	text-align: center ;
+	text-transform:uppercase;
+	margin:0;
+
+}
+.title p{
+	font-size:16px;
+	text-align: center;
+	margin:5px;
+}
+.services{
+	margin-top: 80px;
+	margin-bottom: 170px;
+
+}
+.services_item{
+	width:270px;
+	float:left;
+	text-align: center;
+}
+.services_item h3{
+font-size: 17px;
+margin-bottom: 2px;
+}
+.services_item p{
+	font-size:14px;
+color: gray;
+line-height: 1.6em;
+}
+.services_item:last-child{
+	float:right;
+}
+.services_item:nth-child(2){
+	margin-left: 45px;
+}
+#services{
+	padding-bottom: 00px;
+}
+#portfolio{
+	background:#f7f7f7;
+	padding-bottom: 200px;
+	padding-top:100px;
+}
+.images{
+	padding-top:80px;
+	padding-bottom: 100px;
+}
+.images img{
+	float:left;
+}
+.images img:last-child{
+	float:right;
+}
+.images img:nth-child(2){
+	padding-left:30px;
+}
+/*.about{
+	
+}
+.about h3 {
+	font-size:20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about h4{font-size: 15px;
+	text-transform: uppercase
+
+}
+.about p{
+	color:gray;*/
+	
+	
+}
+.about{
+	margin-top: 80px;
+	margin-bottom: 170px;
+
+}
+.about_item{
+	width:270px;
+	float:left;
+	text-align: center;
+}
+.about_item h3{
+font-size: 20px;
+margin-bottom: 2px;
+font-weight: bold;
+}
+.about_item p{
+	font-size:14px;
+color: gray;
+line-height: 1.6em;
+}
+.about_item:last-child{
+	float:right;
+}
+.about_item:nth-child(2){
+	margin-left: 55px;
+}
+.about{
+	padding-bottom: 100px;
+	padding-top:100px;
+}
+footer p{
+	padding-left:300px;
+	padding-bottom: 200px;
+
+
+}
