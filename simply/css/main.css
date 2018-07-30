@@ -1,0 +1,159 @@
+body{
+	color:black;
+	font-family:TrojanPro Regular, Arial , sans-serif;
+	padding:0;
+	margin:0; 
+	background-color: #ffffff;
+
+}
+div{
+	box-sizing:border-box;
+}
+
+header{ 
+background: url(../img/clouds.jpg) no-repeat center top;
+height: 600px;
+padding: 10%;
+
+}
+section{
+	padding:0;
+	
+}
+
+
+.container{
+	width:1000px;
+	/*border:1px solid red;*/
+	margin:0 auto;
+}
+.nav {
+	float:left;
+	margin-top: 25px;
+	margin-bottom: 70px;
+
+
+}
+
+.logo{
+	margin:50px 200px 20px 300px ;
+}*/
+.menu{
+	padding:0;/*otstup vnutr*/
+	margin:0; /*otsup naruju*/
+	display :block;
+}
+.menu li{
+	float:left;/*change position for left*/
+	display: block;
+	margin-left: 60px;
+	/*margin-right: 45px;*/
+
+}
+.menu a{
+	color:black;/*change color of A*/
+	text-decoration: none;/*ubiraet liniyu podcherkivaniya*/
+	text-transform:uppercase;/*uvelichivaet shrift*/
+	font-size:30px;
+}
+.text {
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 100px 20px;
+	font-size:15px;
+	text-transform:uppercase;
+	text-align:center;
+}
+.border{
+
+	padding:1%;
+	float:left;
+	width: 100%;
+}
+.first{
+	float:left;
+	width:33%;
+	padding-left: 1%;
+	
+}
+.two{
+	float:left;
+	width:33%;
+	padding-left: 1%;
+}
+.three{
+	float:left;
+	width:33%;
+	padding-left: 1%;
+
+}
+
+.h2{
+	text-align:left;
+	font-size:20px;
+	text-transform:uppercase;
+	font-family: Calibri;
+	padding-top:20px;
+}
+.p1{
+	padding-top:20px;
+	text-align:left;
+	text-decoration: none;
+	
+	line-height: 20px;
+	font-family: Calibri;
+}
+.p2{
+	padding-top:20px;
+	text-align:center;
+	font-size:10px;
+	font-family: Calibri;
+	padding-bottom: 10%;
+}
+.last{
+	float:left;
+	width:100%;
+
+}
+.for{float:left;
+width:66%;}
+.for2{
+	color:#858687;
+	float:right;
+	width:33%;
+}
+.for2 h3{
+	text-transform:uppercase;
+	text-align: left;
+	font-size: 11px;
+	padding-left: 8%;
+}
+.last p{
+	font-size: 16px;
+
+}	
+footer{font-size: 20px;
+	padding-top:70%;
+	border:20%;
+
+
+}
+footer p{
+	float :left;
+}
+.social{
+	float:right;
+	padding:0;
+	padding:0;
+}
+.social li{
+	list-style-type: none;
+	float:left;
+	padding-right: 10%;
+	padding-left: 6%
+	display : inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid gray; /* Рамка вокруг текста */
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #efefef;
+}
